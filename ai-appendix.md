@@ -159,9 +159,37 @@ This condition applies the additional exclusion only when the donut radius is po
 - I checked the estimated effects and p-values against the output.
 - I changed the wording to avoid saying that an insignificant estimate proves the effect is zero.
 
-## Section 4: Does the finding hold?
 
-TODO
+## Section 4: Does the Finding Hold?
+
+### Entry: Checking and Editing the Final Conclusion
+
+- **Model and version:** [Fill in the actual model used]
+- **Date:** [Fill in the actual date]
+
+**[Prep]** I used AI as an English writing and checking assistant. I wanted to make my final conclusion clear and easy to understand.
+
+**[Request]** I asked AI to help me organize Section 4 and check whether my conclusion was consistent with the replication and robustness results.
+
+**[Iterate]** I asked for simple English, short sentences, and a writing style suitable for a student report. I also wanted the conclusion to explain the limitations of my replication instead of only saying that the original paper was correct.
+
+**[Mechanism Check]** I checked the conclusion against my actual results. My direct replication estimate was 0.086126, compared with 0.077 in Lee (2008). I also checked the four robustness exercises. The estimates remained positive under different bandwidths, polynomial orders, and donut restrictions. The two placebo cutoffs did not show statistically significant effects.
+
+I checked that the conclusion did not claim that these tests could prove all the assumptions of the RDD design.
+
+**[Evaluate]** I compared the edited text with the output from `python reproduce.py`. The main conclusion was that Lee's positive party incumbency advantage was supported by my replication, but the exact size of the effect was not identical to the original paper. I also kept the limitation about the different sample periods and the unresolved difference in sample size.
+
+**Full transcript**
+
+[Paste the complete original conversation about writing and editing Section 4. Include your prompts, the AI replies, and any suggestions you did not use. This summary is not a replacement for the original transcript.]
+
+**What I changed, and why:**
+
+- I used shorter sentences and simpler words to explain my conclusion.
+- I made the conclusion more specific by referring to the replication and robustness results.
+- I explained that the positive effect was supported, but the exact effect size was different.
+- I kept the sample differences and RDD identification assumptions as limitations.
+- I checked the numerical statements against my own results before using them in the report.
 
 ## Section 5: Peer audit
 
