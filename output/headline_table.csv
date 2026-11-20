@@ -1,0 +1,4 @@
+estimate,paper_estimate,my_estimate,gap_pct,likely_source
+"Table 2, col (1): incumbency jump (share units)",0.077,0.086126,11.851948051948046,"Different years, sample restrictions, running-variable definition"
+"Table 2, col (1): clustered SE (share units)",0.011,0.009777,-11.11818181818182,Different samples and clustering composition
+"Table 2, col (1): observations",6558,13566,106.86184812442818,Different sample coverage and original paper's sample construction

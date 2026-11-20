@@ -1,0 +1,2 @@
+specification,estimate,se,ci_low,ci_high,p_value,n,n_left,n_right,clusters,h,order,kernel,donut,cutoff
+Section 2: global quartic,0.086126,0.009777,0.06696308,0.10528892,,13566,,,,0.5,4,uniform,0,0
